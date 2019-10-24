@@ -1,0 +1,32 @@
+{
+  "name": "parcial",
+  "version": "1.0.0",
+  "description": "Repositorio del examen parcial de programación backend.",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "start": "nodemon --exec babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jl-hoz/parcial.git"
+  },
+  "author": "José Luis de la Hoz",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jl-hoz/parcial/issues"
+  },
+  "homepage": "https://github.com/jl-hoz/parcial#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "request": "^2.88.0"
+  }
+}
