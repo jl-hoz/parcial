@@ -6,7 +6,7 @@ const peopleURL = `${baseURL}/people`;
 
 const typeDefs = `
     type Query{
-        people(page: Int!, number: Int!, name: String, gender: String): Character!
+        people(page: Int!, number: Int!, name: String, gender: String): [Character!]
         character(id: Int!): Character!
     }
 
